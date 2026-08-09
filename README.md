@@ -100,7 +100,7 @@ That's what makes the sheet something a broadcaster can actually rely on.
 
 MIT License
 
-Copyright (c) 2026 Peter Nix
+Copyright (c) 2026 Rebellion Pictures
 
 Permission is hereby granted, free of charge, to any person obtaining a copy  
 of this software and associated documentation files (the "Software"), to deal  
