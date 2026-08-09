@@ -5,7 +5,7 @@ name = "valyda-protocol"
 description = "ComfyUI Node for automated log generation in accordance with the European AI Act"
 # Semantic versioning. The registry rejects a re-publish of an existing version,
 # so bump this before every publish. See note in SETUP-GITHUB.md about 2.3.
-version = "1.0.0"
+version = "2.3.0"
 license = { file = "LICENSE" }
 requires-python = ">=3.9"
 classifiers = [
