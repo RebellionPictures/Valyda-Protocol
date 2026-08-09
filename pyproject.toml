@@ -1,0 +1,27 @@
+[project]
+# Registry node id. Immutable once published — users install with:
+#   comfy node install valyda-protocol
+name = "valyda-protocol"
+description = "ComfyUI Node for automated log generation in accordance with the European AI Act"
+# Semantic versioning. The registry rejects a re-publish of an existing version,
+# so bump this before every publish. See note in SETUP-GITHUB.md about 2.3.
+version = "1.0.0"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[project.urls]
+Repository = "https://github.com/RebellionPictures/Valyda-Protocol"
+"Bug Tracker" = "https://github.com/RebellionPictures/Valyda-Protocol/issues"
+
+[tool.comfy]
+PublisherId = "rebellion-pictures"
+DisplayName = "VALYDA Protocol"
+Icon = "https://raw.githubusercontent.com/RebellionPictures/Valyda-Protocol/main/assets/icon/icon.png"
+Banner = "https://raw.githubusercontent.com/RebellionPictures/Valyda-Protocol/main/assets/banner/banner.png"
