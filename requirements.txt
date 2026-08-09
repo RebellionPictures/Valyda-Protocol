@@ -1,10 +1,2 @@
-# Python packages the VALYDA Protocol nodes need at runtime.
-#
-# These are read automatically into pyproject.toml, and ComfyUI-Manager installs
-# them for the user on install. List only what your node actually imports —
-# do NOT list torch, numpy or Pillow, which ComfyUI already provides.
-#
-# Replace the lines below with your real dependencies. Example for PDF output:
-#
-# reportlab>=4.0
-# pypdf>=4.0
+reportlab>=4.0
+Pillow
